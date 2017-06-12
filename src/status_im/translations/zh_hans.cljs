@@ -15,7 +15,7 @@
    :switch-users                          "切换用户"
 
    ;chat
-   :is-typing                             "正在打字"
+   :is-typing                             "对方正在输入…"
    :and-you                               "你"
    :search-chat                           "搜索聊天"
    :members                               {:one   "1个成员"
@@ -60,7 +60,7 @@
 
    ;profile
    :profile                               "个人资料"
-   :report-user                           "举报用户"
+   :report-user                           "用户举报"
    :message                               "信息"
    :username                              "用户名"
    :not-specified                         "未指定"
@@ -80,18 +80,18 @@
 
    ;sign-up
    :contacts-syncronized                  "已同步你的联系人"
-   :confirmation-code                     (str "谢谢！我们向你发送了一条包含确认信息的短信 "
-                                               "代码。请提供该代码以确认你的电话号码")
+   :confirmation-code                     (str "谢谢！我们向您发送了一条包含确认信息的短信 "
+                                               "代码。请提供该代码以确认您的电话号码")
    :incorrect-code                        (str "抱歉，代码不正确，请重新输入")
-   :generate-passphrase                   (str "我会为你生成一个密码短语，以便你恢复自己的密码 "
+   :generate-passphrase                   (str "我会为您生成一个密码短语，以便你恢复自己的密码 "
                                                "从另一台设备访问或登录")
    :phew-here-is-your-passphrase          "*唷* 真不容易，这是你的密码短语，*写下来，好好保管它！*你需要用它来恢复你的帐户。"
    :here-is-your-passphrase               "这是你的密码短语，*写下来，好好保管它！*你需要用它来恢复你的帐户。"
    :written-down                          "确保你把它安全地写下来"
-   :phone-number-required                 "点击此处输入你的电话号码，我会找到你的朋友"
+   :phone-number-required                 "点击此处输入您的电话号码，我会找到您的朋友"
    :intro-status                          "跟我聊天，以设置你的帐户并更改你的设置！"
    :intro-message1                        "欢迎来到Status\n点击该消息，以设置你的密码并开始！"
-   :account-generation-message            "给我一点时间，我得疯狂地计算一下，以生成你的帐户！"
+   :account-generation-message            "给我一点时间，我得疯狂地计算一下，马上生成你的帐户！"
 
    ;chats
    :chats                                 "聊天"
@@ -113,7 +113,7 @@
    :contacts                              "联系人"
    :new-contact                           "新的联系人"
    :show-all                              "显示所有"
-   :contacts-group-dapps                  "ÐApps"
+   :contacts-group-dapps                  "DApps"
    :contacts-group-people                 "联系人"
    :contacts-group-new-chat               "开始新的聊天"
    :no-contacts                           "还没有联系人"
@@ -150,7 +150,7 @@
    :chat-send-eth-from                    "来自{{chat-name}}的{{amount}} ETH"
 
    ;new-group
-   :group-chat-name                       "聊天名称"
+   :group-chat-name                       "聊天群组名称"
    :empty-group-chat-name                 "请输入名称"
    :illegal-group-chat-name               "请选择其它名称"
 
